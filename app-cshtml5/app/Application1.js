@@ -921,7 +921,7 @@ JSIL.DeclareNamespace("Application1");
     (this.BStartMqBox)['set_SelectedIndex'](this.CStartMqBox.SelectedIndex = 1);
     (this.AStartLVval)['set_Text'](this.ADestLVval.Text = this.BStartLVval.Text = this.CDestLVval.Text = "0");
     (this.AStartLevel)['set_Text'](this.BStartLevel.Text = "1");
-    (this.ADestLevel)['set_Text'](this.CDestLevel.Text = "235");
+    (this.ADestLevel)['set_Text'](this.CDestLevel.Text = "240");
   };
 
   function MainPage_AConfirm (sender, e, $exception) {
