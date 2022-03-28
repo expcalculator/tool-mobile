@@ -916,7 +916,7 @@ JSIL.DeclareNamespace("Application1");
     $S01().CallVirtual("Add", null, expr_06, expr_CD8);
     var expr_CD9 = new ($T01())();
     expr_CD9.CItem$Value$value = "63000000";
-    expr_CD9.CItem$Option$value = "94\ud654  \ucf54\uc5d0\ub204\ube44\uc544 \uc694\uc0c8\uc758 \uaca9\ud22c";
+    expr_CD9.CItem$Option$value = "94\ud654  \uc5f0\uae30 \uc790\uc6b1\ud55c \uc0b0\uc758 \uadf8\ub9bc\uc790";
     expr_CD9.CItem$IsEnabled$value = true;
     $S01().CallVirtual("Add", null, expr_06, expr_CD9);
     this.MainPage$Items$value = expr_06;
