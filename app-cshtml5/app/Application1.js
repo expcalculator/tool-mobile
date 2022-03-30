@@ -418,9 +418,7 @@ JSIL.DeclareNamespace("Application1");
     $T01().prototype['_ctor'].call(this);
     var webClient = new ($T02())();
     webClient.WebClient$Encoding$value = $T03()['get_UTF8']();
-    $S01().CallVirtual("Add", null, webClient['get_Headers'](), "origin", "dcinside.com");
-    $S01().CallVirtual("Add", null, webClient['get_Headers'](), "User-Agent", "*");
-    var text = $S02().CallVirtual("DownloadString", null, webClient, "https://alloworigincors.herokuapp.com/https://gall.dcinside.com/mgallery/board/view/?id=toramonline&no=26051&page=1");
+    var text = $S02().CallVirtual("DownloadString", null, webClient, "https://alloworigincors.herokuapp.com/https://m.dcinside.com/board/toramonline/26051");
     text = this['CutString'](text, "<div class=\"writing_view_box\">", "Data_End");
 
     for (text = this['CutString'](text, "<p>", "<p>"); (text.indexOf("<span style")) !== -1; text = (System.String.Remove(text, text.indexOf("<span style"), 35))) {
