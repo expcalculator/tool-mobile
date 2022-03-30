@@ -64,12 +64,12 @@ var $asm_Application1 = JSIL.GetAssembly("Application1, Version=1.0.0.0, Culture
 
 if (typeof (contentManifest) !== "object") { JSIL.GlobalNamespace.contentManifest = {}; };
 contentManifest["index"] = [
-    ["Script", "app-cshtml5/app/Application1.js?202111281902", { "sizeBytes": 104960 }],
-    ["Script", "app-cshtml5/app/mscorlib.js?202111281902", { "sizeBytes": 789206 }],
-    ["Script", "app-cshtml5/app/CSharpXamlForHtml5.js?202111281902", { "sizeBytes": 0 }],
-    ["Script", "app-cshtml5/app/CSharpXamlForHtml5.System.Xaml.dll.js?202111281902", { "sizeBytes": 0 }],
-    ["Script", "app-cshtml5/app/CSharpXamlForHtml5.System.dll.js?202111281902", { "sizeBytes": 0 }],
-    ["Script", "app-cshtml5/app/CSharpXamlForHtml5.System.Xml.dll.js?202111281902", { "sizeBytes": 0 }],
-    ["Script", "app-cshtml5/app/CSharpXamlForHtml5.System.ServiceModel.dll.js?202111281902", { "sizeBytes": 0 }],
-    ["Script", "app-cshtml5/app/CSharpXamlForHtml5.System.Runtime.Serialization.dll.js?202111281902", { "sizeBytes": 0 }],
+    ["Script", "app-cshtml5/app/Application1.js?20223302334", { "sizeBytes": 76192 }],
+    ["Script", "app-cshtml5/app/mscorlib.js?20223302334", { "sizeBytes": 0 }],
+    ["Script", "app-cshtml5/app/CSharpXamlForHtml5.js?20223302334", { "sizeBytes": 0 }],
+    ["Script", "app-cshtml5/app/CSharpXamlForHtml5.System.dll.js?20223302334", { "sizeBytes": 0 }],
+    ["Script", "app-cshtml5/app/CSharpXamlForHtml5.System.Xaml.dll.js?20223302334", { "sizeBytes": 0 }],
+    ["Script", "app-cshtml5/app/CSharpXamlForHtml5.System.Xml.dll.js?20223302334", { "sizeBytes": 0 }],
+    ["Script", "app-cshtml5/app/CSharpXamlForHtml5.System.ServiceModel.dll.js?20223302334", { "sizeBytes": 0 }],
+    ["Script", "app-cshtml5/app/CSharpXamlForHtml5.System.Runtime.Serialization.dll.js?20223302334", { "sizeBytes": 0 }],
 ];
