@@ -492,9 +492,9 @@ JSIL.DeclareNamespace("Application1");
       if (flag3) {
         throw $S05().Construct("\uc2dc\uc791\ub808\ubca8\uc758 EXP\uac12\uc740 \ubaa9\ud45c\ub808\ubca8\uc758 EXP\uac12\ubcf4\ub2e4 \ud06c\uac70\ub098 \uac19\uc744\uc218 \uc5c6\uc2b5\ub2c8\ub2e4");
       }
-      var flag4 = ((this.ADestMqBox)['get_SelectedIndex']() | 0) === 1;
+      var flag4 = ((this.ADestMqBox)['get_SelectedIndex']() | 0) <= 2;
       if (flag4) {
-        throw $S05().Construct(("\"" + (this.Items)['get_Item'](1).CItem$Option$value + "\"\uc740\n\uba54\uc778 \uc2dc\ub098\ub9ac\uc624\uc758 \uc885\ucc29\uc810\uc774 \ub420 \uc218 \uc5c6\uc2b5\ub2c8\ub2e4"));
+        throw $S05().Construct(("\"" + (this.Items)['get_Item']((this.ADestMqBox)['get_SelectedIndex']()).CItem$Option$value + "\"\uc740\n\uba54\uc778 \uc2dc\ub098\ub9ac\uc624\uc758 \uc885\ucc29\uc810\uc774 \ub420 \uc218 \uc5c6\uc2b5\ub2c8\ub2e4"));
       }
     } catch ($exception) {
       if ($T13().$Is($exception)) {
