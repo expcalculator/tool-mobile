@@ -418,7 +418,7 @@ JSIL.DeclareNamespace("Application1");
     $T01().prototype['_ctor'].call(this);
     var webClient = new ($T02())();
     webClient.WebClient$Encoding$value = $T03()['get_UTF8']();
-    var text = $S02().CallVirtual("DownloadString", null, webClient, "https://raw.githubusercontent.com/expcalculator/tool/main/Mq_List");
+    var text = $S02().CallVirtual("DownloadString", null, webClient, "https://raw.githubusercontent.com/toramcalculator/tool/main/Mq_List");
     var num = 0;
 
   $loop2: 
